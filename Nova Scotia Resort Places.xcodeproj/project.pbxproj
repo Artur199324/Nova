@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75DD9B4F2CB019E700E3A995 /* Nova_Scotia_Resort_PlacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B4E2CB019E700E3A995 /* Nova_Scotia_Resort_PlacesApp.swift */; };
+		75DD9B512CB019E700E3A995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B502CB019E700E3A995 /* ContentView.swift */; };
+		75DD9B532CB019EB00E3A995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DD9B522CB019EB00E3A995 /* Assets.xcassets */; };
+		75DD9B562CB019EB00E3A995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DD9B552CB019EB00E3A995 /* Preview Assets.xcassets */; };
+		75DD9B5E2CB052B600E3A995 /* MainScreensIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B5D2CB052B500E3A995 /* MainScreensIView.swift */; };
+		75DD9B602CB05B6E00E3A995 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B5F2CB05B6E00E3A995 /* MainView.swift */; };
+		75DD9B632CB05D2200E3A995 /* HotelsAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B622CB05D2200E3A995 /* HotelsAllView.swift */; };
+		75DD9B662CB0607B00E3A995 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B652CB0607B00E3A995 /* NewsView.swift */; };
+		75DD9B692CB061C100E3A995 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B682CB061C100E3A995 /* FactsView.swift */; };
+		75DD9B6C2CB0628D00E3A995 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B6B2CB0628D00E3A995 /* QuizView.swift */; };
+		75DD9B712CB0786800E3A995 /* SetingsScrensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B702CB0786800E3A995 /* SetingsScrensView.swift */; };
+		75DD9B732CB07FDB00E3A995 /* DetailsIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B722CB07FDB00E3A995 /* DetailsIView.swift */; };
+		75DD9B752CB0818D00E3A995 /* Hontel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B742CB0818D00E3A995 /* Hontel.swift */; };
+		75DD9B772CB08CA700E3A995 /* DetailsIFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B762CB08CA700E3A995 /* DetailsIFactView.swift */; };
+		75DD9B792CB08D0900E3A995 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B782CB08D0900E3A995 /* Fact.swift */; };
+		75DD9B7B2CB0948B00E3A995 /* DetailsINewsViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B7A2CB0948B00E3A995 /* DetailsINewsViewView.swift */; };
+		75DD9B7D2CB0955000E3A995 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B7C2CB0955000E3A995 /* News.swift */; };
+		75DD9B7F2CB09D7800E3A995 /* RequestAppReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B7E2CB09D7800E3A995 /* RequestAppReview.swift */; };
+		75DD9B812CB09E8200E3A995 /* PolisiPropertiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B802CB09E8200E3A995 /* PolisiPropertiView.swift */; };
+		75DD9B832CB28F1400E3A995 /* GameQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B822CB28F1400E3A995 /* GameQuizView.swift */; };
+		75DD9B852CB292A600E3A995 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B842CB292A500E3A995 /* Questions.swift */; };
+		75DD9B872CB3D60200E3A995 /* WritetoUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD9B862CB3D60200E3A995 /* WritetoUsView.swift */; };
+		75DD9B892CB3EDC700E3A995 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 75DD9B882CB3EDC700E3A995 /* codemagic.yaml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75DD9B4B2CB019E700E3A995 /* Nova Scotia Resort Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nova Scotia Resort Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DD9B4E2CB019E700E3A995 /* Nova_Scotia_Resort_PlacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova_Scotia_Resort_PlacesApp.swift; sourceTree = "<group>"; };
+		75DD9B502CB019E700E3A995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75DD9B522CB019EB00E3A995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DD9B552CB019EB00E3A995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75DD9B5D2CB052B500E3A995 /* MainScreensIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreensIView.swift; sourceTree = "<group>"; };
+		75DD9B5F2CB05B6E00E3A995 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		75DD9B622CB05D2200E3A995 /* HotelsAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsAllView.swift; sourceTree = "<group>"; };
+		75DD9B652CB0607B00E3A995 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		75DD9B682CB061C100E3A995 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		75DD9B6B2CB0628D00E3A995 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		75DD9B702CB0786800E3A995 /* SetingsScrensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetingsScrensView.swift; sourceTree = "<group>"; };
+		75DD9B722CB07FDB00E3A995 /* DetailsIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsIView.swift; sourceTree = "<group>"; };
+		75DD9B742CB0818D00E3A995 /* Hontel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hontel.swift; sourceTree = "<group>"; };
+		75DD9B762CB08CA700E3A995 /* DetailsIFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsIFactView.swift; sourceTree = "<group>"; };
+		75DD9B782CB08D0900E3A995 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		75DD9B7A2CB0948B00E3A995 /* DetailsINewsViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsINewsViewView.swift; sourceTree = "<group>"; };
+		75DD9B7C2CB0955000E3A995 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		75DD9B7E2CB09D7800E3A995 /* RequestAppReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAppReview.swift; sourceTree = "<group>"; };
+		75DD9B802CB09E8200E3A995 /* PolisiPropertiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolisiPropertiView.swift; sourceTree = "<group>"; };
+		75DD9B822CB28F1400E3A995 /* GameQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuizView.swift; sourceTree = "<group>"; };
+		75DD9B842CB292A500E3A995 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		75DD9B862CB3D60200E3A995 /* WritetoUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritetoUsView.swift; sourceTree = "<group>"; };
+		75DD9B882CB3EDC700E3A995 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DD9B482CB019E700E3A995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DD9B422CB019E700E3A995 = {
+			isa = PBXGroup;
+			children = (
+				75DD9B882CB3EDC700E3A995 /* codemagic.yaml */,
+				75DD9B4D2CB019E700E3A995 /* Nova Scotia Resort Places */,
+				75DD9B4C2CB019E700E3A995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75DD9B4C2CB019E700E3A995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B4B2CB019E700E3A995 /* Nova Scotia Resort Places.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DD9B4D2CB019E700E3A995 /* Nova Scotia Resort Places */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B6F2CB0783700E3A995 /* setingsscreens */,
+				75DD9B6A2CB0627100E3A995 /* quizscreens */,
+				75DD9B672CB061A500E3A995 /* factsscreens */,
+				75DD9B642CB05FBE00E3A995 /* newsscreens */,
+				75DD9B612CB05CFF00E3A995 /* hotelsscreens */,
+				75DD9B5C2CB051F300E3A995 /* mainscreens */,
+				75DD9B4E2CB019E700E3A995 /* Nova_Scotia_Resort_PlacesApp.swift */,
+				75DD9B502CB019E700E3A995 /* ContentView.swift */,
+				75DD9B522CB019EB00E3A995 /* Assets.xcassets */,
+				75DD9B542CB019EB00E3A995 /* Preview Content */,
+			);
+			path = "Nova Scotia Resort Places";
+			sourceTree = "<group>";
+		};
+		75DD9B542CB019EB00E3A995 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B552CB019EB00E3A995 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75DD9B5C2CB051F300E3A995 /* mainscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B5D2CB052B500E3A995 /* MainScreensIView.swift */,
+				75DD9B5F2CB05B6E00E3A995 /* MainView.swift */,
+			);
+			path = mainscreens;
+			sourceTree = "<group>";
+		};
+		75DD9B612CB05CFF00E3A995 /* hotelsscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B622CB05D2200E3A995 /* HotelsAllView.swift */,
+				75DD9B722CB07FDB00E3A995 /* DetailsIView.swift */,
+				75DD9B742CB0818D00E3A995 /* Hontel.swift */,
+			);
+			path = hotelsscreens;
+			sourceTree = "<group>";
+		};
+		75DD9B642CB05FBE00E3A995 /* newsscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B652CB0607B00E3A995 /* NewsView.swift */,
+				75DD9B7A2CB0948B00E3A995 /* DetailsINewsViewView.swift */,
+				75DD9B7C2CB0955000E3A995 /* News.swift */,
+			);
+			path = newsscreens;
+			sourceTree = "<group>";
+		};
+		75DD9B672CB061A500E3A995 /* factsscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B682CB061C100E3A995 /* FactsView.swift */,
+				75DD9B762CB08CA700E3A995 /* DetailsIFactView.swift */,
+				75DD9B782CB08D0900E3A995 /* Fact.swift */,
+			);
+			path = factsscreens;
+			sourceTree = "<group>";
+		};
+		75DD9B6A2CB0627100E3A995 /* quizscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B6B2CB0628D00E3A995 /* QuizView.swift */,
+				75DD9B822CB28F1400E3A995 /* GameQuizView.swift */,
+				75DD9B842CB292A500E3A995 /* Questions.swift */,
+			);
+			path = quizscreens;
+			sourceTree = "<group>";
+		};
+		75DD9B6F2CB0783700E3A995 /* setingsscreens */ = {
+			isa = PBXGroup;
+			children = (
+				75DD9B702CB0786800E3A995 /* SetingsScrensView.swift */,
+				75DD9B7E2CB09D7800E3A995 /* RequestAppReview.swift */,
+				75DD9B802CB09E8200E3A995 /* PolisiPropertiView.swift */,
+				75DD9B862CB3D60200E3A995 /* WritetoUsView.swift */,
+			);
+			path = setingsscreens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DD9B4A2CB019E700E3A995 /* Nova Scotia Resort Places */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DD9B592CB019EB00E3A995 /* Build configuration list for PBXNativeTarget "Nova Scotia Resort Places" */;
+			buildPhases = (
+				75DD9B472CB019E700E3A995 /* Sources */,
+				75DD9B482CB019E700E3A995 /* Frameworks */,
+				75DD9B492CB019E700E3A995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nova Scotia Resort Places";
+			productName = "Nova Scotia Resort Places";
+			productReference = 75DD9B4B2CB019E700E3A995 /* Nova Scotia Resort Places.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DD9B432CB019E700E3A995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					75DD9B4A2CB019E700E3A995 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 75DD9B462CB019E700E3A995 /* Build configuration list for PBXProject "Nova Scotia Resort Places" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DD9B422CB019E700E3A995;
+			productRefGroup = 75DD9B4C2CB019E700E3A995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DD9B4A2CB019E700E3A995 /* Nova Scotia Resort Places */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DD9B492CB019E700E3A995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DD9B892CB3EDC700E3A995 /* codemagic.yaml in Resources */,
+				75DD9B562CB019EB00E3A995 /* Preview Assets.xcassets in Resources */,
+				75DD9B532CB019EB00E3A995 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DD9B472CB019E700E3A995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DD9B792CB08D0900E3A995 /* Fact.swift in Sources */,
+				75DD9B7B2CB0948B00E3A995 /* DetailsINewsViewView.swift in Sources */,
+				75DD9B5E2CB052B600E3A995 /* MainScreensIView.swift in Sources */,
+				75DD9B7D2CB0955000E3A995 /* News.swift in Sources */,
+				75DD9B752CB0818D00E3A995 /* Hontel.swift in Sources */,
+				75DD9B602CB05B6E00E3A995 /* MainView.swift in Sources */,
+				75DD9B512CB019E700E3A995 /* ContentView.swift in Sources */,
+				75DD9B812CB09E8200E3A995 /* PolisiPropertiView.swift in Sources */,
+				75DD9B662CB0607B00E3A995 /* NewsView.swift in Sources */,
+				75DD9B772CB08CA700E3A995 /* DetailsIFactView.swift in Sources */,
+				75DD9B852CB292A600E3A995 /* Questions.swift in Sources */,
+				75DD9B632CB05D2200E3A995 /* HotelsAllView.swift in Sources */,
+				75DD9B832CB28F1400E3A995 /* GameQuizView.swift in Sources */,
+				75DD9B712CB0786800E3A995 /* SetingsScrensView.swift in Sources */,
+				75DD9B6C2CB0628D00E3A995 /* QuizView.swift in Sources */,
+				75DD9B872CB3D60200E3A995 /* WritetoUsView.swift in Sources */,
+				75DD9B4F2CB019E700E3A995 /* Nova_Scotia_Resort_PlacesApp.swift in Sources */,
+				75DD9B7F2CB09D7800E3A995 /* RequestAppReview.swift in Sources */,
+				75DD9B692CB061C100E3A995 /* FactsView.swift in Sources */,
+				75DD9B732CB07FDB00E3A995 /* DetailsIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75DD9B572CB019EB00E3A995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75DD9B582CB019EB00E3A995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DD9B5A2CB019EB00E3A995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nova Scotia Resort Places/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsrpapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75DD9B5B2CB019EB00E3A995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nova Scotia Resort Places/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsrpapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DD9B462CB019E700E3A995 /* Build configuration list for PBXProject "Nova Scotia Resort Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DD9B572CB019EB00E3A995 /* Debug */,
+				75DD9B582CB019EB00E3A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DD9B592CB019EB00E3A995 /* Build configuration list for PBXNativeTarget "Nova Scotia Resort Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DD9B5A2CB019EB00E3A995 /* Debug */,
+				75DD9B5B2CB019EB00E3A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75DD9B432CB019E700E3A995 /* Project object */;
+}
