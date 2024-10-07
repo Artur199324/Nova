@@ -1,62 +1,58 @@
 workflows:
-ios-native-workflow:
-  name: iOS Native
-  max_build_duration: 120
-  instance_type: mac_mini_m1
-  integrations:
-    app_store_connect: NovaScotia
-  environment:
-    ios_signing:
-      distribution_type: app_store
-      bundle_identifier: com.nsrpapp
-    vars:
-      BUNDLE_ID: "com.nsrpapp"
-      XCODE_PROJECT: "Nova Scotia Resort Places.xcodeproj"
-      XCODE_SCHEME: "Nova Scotia Resort Places"
-      APP_STORE_APPLE_ID: 6736611187
-    xcode: latest
-    cocoapods: default
-  scripts:
-    - name: Install CocoaPods dependencies
-      script: |
-        # Если у тебя нет Podfile, то можно пропустить этот шаг
-        if [ -f "Podfile" ]; then
-          pod install
-        else
-          echo "No Podfile found, skipping pod install."
-        fi
-    - name: Set up provisioning profiles settings on Xcode project
-      script: xcode-project use-profiles
-    - name: Increment build number
-      script: |
-        cd $CM_BUILD_DIR
-        LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
-        agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
-    - name: Obfuscate Swift code
-      script: |
-        find . -name "*.swift" -print0 | xargs -0 sed -i '' -e 's/\b(\w+)\b/$1_obf/g'
-    - name: Build ipa for distribution
-      script: |
-        xcode-project build-ipa \
-          --project "$CM_BUILD_DIR/$XCODE_PROJECT" \  # используем --project для .xcodeproj
-          --scheme "$XCODE_SCHEME"
-  artifacts:
-    - build/ios/ipa/*.ipa
-    - /tmp/xcodebuild_logs/*.log
-    - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-    - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-  publishing:
-    email:
-      recipients:
-        - artyr241993@gmail.com
-      notify:
-        success: true
-        failure: true
-    app_store_connect:
-      auth: integration
-      submit_to_testflight: true
-      beta_groups:
-        - NovaScottTest
-      submit_to_app_store: true
-      cancel_previous_submissions: true
-      release_type: MANUAL
+  ios-native-workflow:
+    name: iOS Native
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    integrations:
+      app_store_connect: NovaScotia
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.nsrpapp
+      vars:
+        BUNDLE_ID: "com.nsrpapp"
+        XCODE_WORKSPACE: "Nova Scotia Resort Places.xcodeproj"
+        XCODE_SCHEME: "Nova Scotia Resort Places"
+        APP_STORE_APPLE_ID: 6736611187
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install CocoaPods dependencies
+        script: |
+          pod install || echo "No Podfile found, skipping pod install."
+      - name: Set up provisioning profiles settings on Xcode project
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          cd $CM_BUILD_DIR
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+      - name: Obfuscate Swift code
+        script: |
+          find . -name "*.swift" -print0 | xargs -0 sed -i '' -e 's/\b(\w+)\b/$1_obf/g'
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      email:
+        recipients:
+          - artyr241993@gmail.com
+        notify:
+          success: true
+          failure: true
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        beta_groups:
+          - NovaScottTest
+        submit_to_app_store: true
+        cancel_previous_submissions: true
+        release_type: MANUAL
+
