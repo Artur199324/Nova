@@ -11,14 +11,15 @@ workflows:
         bundle_identifier: com.nsrpapp
       vars:
         BUNDLE_ID: "com.nsrpapp"
-        XCODE_WORKSPACE: "Nova Scotia Resort Places.xcodeproj"
+        XCODE_PROJECT: "Nova Scotia Resort Places.xcodeproj"  # Используем XCODE_PROJECT вместо XCODE_WORKSPACE
         XCODE_SCHEME: "Nova Scotia Resort Places"
         APP_STORE_APPLE_ID: 6736611187
       xcode: latest
-      cocoapods: default
+      cocoapods: default  # Можно оставить, если проект использует Podfile
     scripts:
       - name: Install CocoaPods dependencies
         script: |
+          # Проверка на наличие Podfile
           pod install || echo "No Podfile found, skipping pod install."
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
@@ -32,8 +33,9 @@ workflows:
           find . -name "*.swift" -print0 | xargs -0 sed -i '' -e 's/\b(\w+)\b/$1_obf/g'
       - name: Build ipa for distribution
         script: |
+          # Используем --project вместо --workspace для .xcodeproj
           xcode-project build-ipa \
-            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
             --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
@@ -55,4 +57,3 @@ workflows:
         submit_to_app_store: true
         cancel_previous_submissions: true
         release_type: MANUAL
-
